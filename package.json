@@ -1,5 +1,6 @@
 {
   "name": "0xsapra-site",
+  "homepage": "https://0xsapra.github.io/0xsapra",
   "version": "1.0.0",
   "dependencies": {
     "bootstrap": "^5.2.3",
