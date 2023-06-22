@@ -1,8 +1,9 @@
 {
   "name": "0xsapra-site",
-  "homepage": "https://0xsapra.github.io/0xsapra",
+  "homepage": "https://0xsapra.com",
   "version": "1.0.0",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
