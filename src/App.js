@@ -28,11 +28,12 @@ class EasterEgg extends React.PureComponent {
 
 function App() {
   let location = useLocation();
-  
+  console.log("changed");
+
   return (
     <>
       <ScrollToTop />
-
+      
       <NavBar />
       <div className="App">
         <TransitionGroup>
@@ -47,7 +48,7 @@ function App() {
               <Route path="/security" element={<Page component={Security} title="Security" />} />
               <Route path="/software" element={<Page component={Software} title="Software" />} />
               <Route path="/resources" element={<Page component={Resources} title="Resources" />} />
-              <Route path="/gallery" element={<Page component={Gallery} title="Gallery" />} />
+              {/* <Route path="/gallery" element={<Page component={Gallery} title="Gallery" />} /> */}
 
               <Route path="*" element={<NotFound />} />
             </Routes>
