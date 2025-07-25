@@ -82,6 +82,11 @@ const Security = () => {
                                     cvss="8.8 (HIGH)"
                                     name="Apache Fineract RCE via path traversal"
                                     url="https://lists.apache.org/thread/t8q6fmh3o6yqmy69qtqxppk9yg9wfybg"></CveItem>
+                                <CveItem 
+                                    cveId="CVE-2024-41874"
+                                    cvss="9.8 (Critical)"
+                                    name="Adobe Coldfusion Arbitrary code execution"
+                                    url="https://helpx.adobe.com/security/products/coldfusion/apsb24-71.html"></CveItem>
                             </li>
                         </ListGroup>
                     </div>

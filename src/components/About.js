@@ -124,7 +124,7 @@ const About = () => {
             subtitle="CRED"
             date="2021 - Now"
             description={[
-              "Reported multiple critical CVE's to Apache Fineract used at CRED.",
+              "Reported multiple critical CVE's to Apache Fineract ",
               "DevSecOps | Setup SAST in CI/CD pipeline.",
               "Application Security & Secure architecture"
             ]}
